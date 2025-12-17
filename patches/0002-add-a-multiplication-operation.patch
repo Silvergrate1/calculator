@@ -1,0 +1,29 @@
+From d460148125e76a5e6bd85c7590eb05a906b9002e Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?=D0=93=D0=B0=D1=81=D1=8E=D0=BA=20=D0=94=D0=BC=D0=B8=D1=82?=
+ =?UTF-8?q?=D1=80=D0=BE?= <hasiuk.dmytro@lll.kpi.ua>
+Date: Wed, 17 Dec 2025 18:38:38 +0200
+Subject: [PATCH 2/2] add a multiplication operation
+
+---
+ calculator.h | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+diff --git a/calculator.h b/calculator.h
+index d59d596..5a13627 100644
+--- a/calculator.h
++++ b/calculator.h
+@@ -4,8 +4,9 @@
+ class Calculator
+ {
+ 	public:
+-		int Add (double, double);
+-		int Sub (double, double);
++		double Add (double, double);
++		double Sub (double, double);
++                double Mul(double, double);
+ };
+ 
+ #endif//CALCULATOR_H
+-- 
+2.43.0
+
